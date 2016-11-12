@@ -1,2 +1,27 @@
 Youtube search view is youtube autocomplete textview
 
+For Use :
+
+Add to your application grable file : 
+
+ -  compile 'com.google.apis:google-api-services-youtube:v3-rev176-1.22.0'
+    compile 'com.google.api-client:google-api-client:1.19.1'
+    compile 'com.google.oauth-client:google-oauth-client:1.8.0-beta'
+    compile 'com.google.http-client:google-http-client-gson:1.19.0'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.google.http-client:google-http-client-jackson2:1.22.0'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.8.1'
+    compile 'com.google.api-client:google-api-client-android:1.22.0'
+    compile 'com.google.http-client:google-http-client-android:1.22.0'
+
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'org.apache.httpcomponents:httpclient:4.0.1'
+
+
+    configurations {
+        compile.exclude group: "org.apache.httpcomponents", module: "httpclient"
+    }
+    
+    
+
