@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 youtubeSearchView.LoadSearchresult(charSequence.toString(),
-                        "AIzaSyAXSYq-75wtYyhXHIy_8R1BMGG0ZwkAi90");
+                        "Your Youtube API KEY");
             }
 
             @Override
